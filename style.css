@@ -231,7 +231,7 @@ body
 .hero-banner {
     position: relative;
     height: 567px; 
-    background-image: url('https://i.pinimg.com/736x/18/47/19/18471941d8dc978a8e17dffe556a5e68.jpg'); 
+    background-image: url('travis-scott-4k.jpg'); 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; 
@@ -1433,4 +1433,48 @@ body
 .contact-details-text {
     display: flex;
     flex-direction: column;
+}
+
+/* ------ FLASH SALE BANNER ------ */
+.flash-sale-banner {
+    display: inline-flex; /* Sử dụng inline-flex để container co lại vừa với nội dung */
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Nền tối hơn một chút để nổi bật */
+    border: 1px solid red;
+    border-radius: 12px; /* Bo tròn các góc của cả khối */
+    overflow: hidden; /* Đảm bảo các phần tử con không bị tràn ra ngoài */
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.6), 0 0 5px rgba(255, 255, 255, 0.5) inset; /* Thêm hiệu ứng đổ bóng và viền trong */
+    text-align: center;
+}
+
+.flash-sale-part {
+    padding: 10px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* Đảm bảo các phần có chiều cao bằng nhau */
+}
+
+.flash-sale-side {
+    color:white;
+      text-shadow: 
+        0 0 2px #fff,          
+        0 0 10px #ffc300,      
+        0 0 20px #ff5733;
+    font-size: 39px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration-line: line-through;
+}
+
+.flash-sale-main {
+    color: white;
+    font-family: 'Metal Mania', cursive;
+    font-size: 86px;
+    text-shadow: 
+        0 0 2px #fff,          
+        0 0 10px #ffc300,      
+        0 0 20px #ff5733;
 }
